@@ -1,0 +1,23 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "simple note app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OluwatobiJohn/Note-App.git"
+  },
+  "author": "Oluwatobi John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OluwatobiJohn/Note-App/issues"
+  },
+  "homepage": "https://github.com/OluwatobiJohn/Note-App#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "yargs": "^16.0.3"
+  }
+}

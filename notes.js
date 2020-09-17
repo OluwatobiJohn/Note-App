@@ -1,0 +1,21 @@
+
+var addNote = (title, body) => {
+    console.log('Adding note', title, body); 
+}; 
+
+var getAll = () => {
+    console.log('Getting all notes')
+}
+
+var getNote = (title) => {
+    console.log('Getting note', title);
+}
+var deleteNote = (title) => {
+    console.log('Deleting note', title);
+}
+module.exports = {
+    addNote,
+    getAll,
+    getNote,
+    deleteNote
+}
