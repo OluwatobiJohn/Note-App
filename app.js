@@ -22,7 +22,9 @@ if(command === 'add') {
    var note = notes.getAll();
    if (note) {
        console.log(`Printing ${note.length} note(s).`);
-       console.log(notes.getAll());
+       note.forEach((note) => {
+           notes.logNote(note)
+       });
    }
 } else if (command === 'read'){
    var note = notes.getNote(argv.title);
